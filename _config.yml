@@ -1,0 +1,75 @@
+# Site settings
+title: Carlos M. Cornejo
+twitter_username: cmcornejocrespo
+name: Carlos M. Cornejo
+
+# Build settings
+markdown: kramdown
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/cmcornejocrespo
+ - title: Twitter
+   url: https://twitter.com/cmcornejocrespo
+ - title: LinkedIn
+   url: https://es.linkedin.com/in/cmcornejocrespo
+
+#Any buzzword skills you want to include
+skills:
+ - Software craftsman
+ - SOLID
+ - TDD
+ - Spring Boot
+ - docker
+ - REST
+ - API Architecture
+ - Java
+ - Gradle
+ - JPA
+ - SQL
+ - REST
+#Work experience is required
+roles:
+ - title: Solutions Architect/Devops
+   start: 2016
+   end: Ongoing
+   employer: atSistemas - Barcelona
+   description: Responsible for architecting ad-hoc and tailored JEE/cloud-ready solutions.
+   projects:
+    - description: Infrastructure provisioning automation using docker. Migration of all Oracle deployment stack (SOA) to docker using official images.
+    - description: Log centralisation automation using Graylog2. Installing Graylog2 stack with LDAP integration using docker and Ansible. Integration with Logstash across different servers.
+   Key Technologies: docker, AWS, Ansible, Graylog2, Logstash.
+ - title: Senior Java Developer/Devops
+   start: 2016
+   end: 2016
+   employer: William Hill Labs – London
+   description: Part of the Bonus Wallet development team. Participating in all phases of new application development from initial concepts, through design, development, testing, deployment and support. Working with the entire project team to balance creative objectives with business needs and technical requirements. Migration of William Hill Cloud (WHC) into a Platform-as-a-Service (PaaS) to support all future business service implementations to be decoupled from concerns of API gateways, scaling, resilience, logging, monitoring, etc. Responsible for conducting the interview processes, acting as a mentor and coaching on SOLID and software craftsman practices. Also taking ownership of internal technical meetups and technical meetings (Friday tech meetings).
+   Key Technologies: Spring Boot, REST, Scala, Akka, TDD, CI, Jenkins, Docker, Ansible, Puppet, Mesos, Mesosphere, AWS, Rancher, DC/OS, cAdvsior, ELK.
+ - title: Associate Manager
+   start: 2015
+   end: 2016
+   employer: eFinancialCareers/Dice.com - London
+   roles:
+    - Lead Java Developer:
+      resposibilities: Co-managing two offshore teams composed of more than 10 developers based in Belarus. Coaching, mentoring and leading developers to encourage best software craftsman practices using SOLID, TDD, DD, BDD, Pair Programming and peer reviews. Conducting regular technical sessions with stream leads and developers to keep the state of the application up to date with new frameworks and solutions. Architecting and developing highly scalable web solutions (microservices), mainly focusing on REST and HATEOAS approaches. Leading the recruitment process. Day-to-day activities to improve CI and CD infrastructure, monitoring, tooling and continuous delivery processes. Proactively and relentlessly seeking opportunities to automate manual processes across the stack. As part of the company strategy to move the data center off to AWS I was responsible for designing the infrastructure migration plan for the monolithic application. We started from moving all the application to containers to then use Docker Compose to treat the application as a multi-container application that could be deployed to AWS ECR. Ansible was the automation tool used to provision and configure the infrastructure in AWS and run the deployments into different environments.
+      projects:
+        - description: Webstore project implemented using SPA built on Angular and backend using spring boot. Integration with external API’s based on WS02 and OAuth2 authorization framework.
+        - description: Migration of the application to Java 8.  As part of the technology road map I was responsible for coordinating and managing dependencies with Devops, SysAdmins and Developers to upgrade to Java 8. We used this as an opportunity to migrate our spring ecosystem to Spring 4.2 and Solr nodes to use the latest GC G1 in order to have a better JVM performance.
+        - description: Technical lead on the migration of legacy Endeca search engine off to Solr. This was an ideal opportunity to decouple from the monolithic main application using micro service architecture with spring boot. Breaking core functionalities into independently deployable modules that would integrate using JMS. The redesign involved a complete DDD approach bottom-up following SOLID principles.
+    - Senior Java developer:
+      responsibilities: Working alongside the stakeholders (Product Owners, User Experience Specialists, PM, etc.) to refine the requirements and adopt them to the development cycle (i.e. backlog grooming and sprint pre-planning sessions). Coordinating and overseeing quality and code standards across portfolio applications. Collaborating with the innovations director on the technical roadmap of the product. Keeping in sync with stream leads to make sure the code quality was following the right direction.
+   Key Technologies: JEE, REST, Micro services, Spring Stack (boot, mvc, data, security), TDD, BDD, Solr, Zookeeper, JVM profiling/tunning (G1), Jenkins, Docker, Ansible, AWS, ECR, AWS CLI, boto.
+
+
+#Education is required
+education:
+ - level: Bachelor of Science (B.Sc.)
+   date: 2008
+   subject: Computer Science
+   school: University of Seville
+
+#An additional info freetext section is optional at the bottom of the page - can be text or HTML
+additionalinfo: |
+   Passionate about Software Craftsmanship, CI/CD and automating stuff, Coaching & Mentoring. DevOps advocate.
